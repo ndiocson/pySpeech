@@ -26,7 +26,7 @@ data has been saved, the user has various options of how to convert the text to 
 |Exit|  -  closes the program
 
 ## Resources
-To obtain the phoneme pronunciations for various words, we used a pre-existing dictionary provided by the Carnegie Mellon University (CMU) found here http://www.speech.cs.cmu.edu/cgi-bin/cmudict. This file has been imported into the project as a simple readable file labelled 'Words.txt', and contains the phoneme pronunciations for over 300,000 words.
+To obtain the phoneme pronunciations for various words, we used a pre-existing dictionary provided by the Carnegie Mellon University (CMU) found here http://www.speech.cs.cmu.edu/cgi-bin/cmudict. This file has been imported into the project as a simple readable file labelled 'Words.txt', and contains the phoneme pronunciations for over 130,000 words.
 
 ## Downloading Packages
 
