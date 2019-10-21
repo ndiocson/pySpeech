@@ -13,15 +13,15 @@ pySpeech is a text-to-speech program developed with Python. The program converts
 
 If you are missing the tkinter package, download it through:
 
-'''console
+```console
 $ sudo apt-get install python3-tk
-'''
+```
 
 To run the program, type:
 
-'''console
+```console
 $ python3 main.py
-'''
+```
 
 Running the program will result in a user interface widget to appear. From the generated widget you should see multiple text boxes as well as various buttons. Refer to the following guide for each button:
 
