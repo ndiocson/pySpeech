@@ -1,6 +1,5 @@
 import pygame
 
-
 class Sound:
 
     def __init__(self, name):
@@ -14,7 +13,7 @@ class Sound:
                 letters += l.upper()
 
         filename = str(letters) + ".wav"
-        self.path = 'wav/' + filename
+        self.path = '../wav/' + filename
 
     def play(self):
         # pygame.mixer.pre_init(44100, -16, 1, 512)

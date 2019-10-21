@@ -1,7 +1,6 @@
 from graph import Graph
 import num
 
-
 def make_list(filename):
     '''
     Goes through text file and appends each phoneme or word to a list
@@ -23,7 +22,6 @@ def make_list(filename):
 
     return some_list
 
-
 def create_phoneme_graph(filename):
     '''
     Goes through file and creates a vertex for each phoneme
@@ -43,7 +41,6 @@ def create_phoneme_graph(filename):
         phonemes.add_vertex(p.split()[0])
 
     return phonemes
-
 
 def create_word_graph(filename, graph):
     '''
@@ -78,7 +75,6 @@ def create_word_graph(filename, graph):
 
     return graph
 
-
 def remove_punct(word):
     '''
     Takes a word and removes the punctuation from it such that only letters
@@ -98,7 +94,6 @@ def remove_punct(word):
             new_word += w
 
     return new_word
-
 
 def get_pronounce(word, graph):
     '''
@@ -141,7 +136,6 @@ def get_pronounce(word, graph):
             # else, if the word is neither a number nor in the word graph,
             # return None
             return None
-
 
 def get_similar(word, graph):
     '''

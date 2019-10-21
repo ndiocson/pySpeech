@@ -4,7 +4,6 @@ from time import sleep
 import word as w
 import tkinter.messagebox
 
-
 # initalize a widget class
 class GUI:
     def __init__(self, master):

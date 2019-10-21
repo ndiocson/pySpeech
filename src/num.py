@@ -6,7 +6,6 @@ numbers = {'0': 'zero', '1': 'one', '2': 'two', '3': 'three', '4': 'four',
            '20': 'twenty', '30': 'thirty', '40': 'forty', '50': 'fifty',
            '60': 'sixty', '70': 'seventy', '80': 'eighty', '90': 'ninety'}
 
-
 def parse_num(num):
     '''
     This function will take a number up to 9999 and convert it to it's 'word'
@@ -47,7 +46,6 @@ def parse_num(num):
                 word.append("thousand")
 
     return word
-
 
 def literal_num(num):
     '''
