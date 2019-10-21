@@ -25,12 +25,12 @@ $ python3 main.py
 
 Running the program will result in a user interface widget to appear. From the generated widget you should see multiple text boxes as well as various buttons. Refer to the following guide for each button:
 
-|Play|  -  plays all of the text entered . 
-|Line|  -  plays the next line of text . 
-|Word|  -  plays the next word . 
-|Prev|  -  plays the last word/line/all said . 
-|Clear| -  clears the display text box . 
-|Exit|  -  closes the program . 
+|Play|  -  plays all of the text entered  
+|Line|  -  plays the next line of text  
+|Word|  -  plays the next word  
+|Prev|  -  plays the last word/line/all said  
+|Clear| -  clears the display text box  
+|Exit|  -  closes the program  
 
 ### Resources
 
